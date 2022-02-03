@@ -30,74 +30,28 @@ def start_pannel():
     if not SUPPORT_CHANNEL and not SUPPORT_GROUP:
         buttons = [
             [
-                InlineKeyboardButton(
-                    text="🗂 Helper Commands Menu", callback_data="shikhar"
-                ),
-            ],
-            [
-                InlineKeyboardButton(
-                    text="🔧 Settings", callback_data="settingm"
-                )
+                InlineKeyboardButton("❰ ᴊᴏɪɴ ʜᴇʀᴇ ғᴏʀ ᴜᴘᴅᴀᴛᴇs ❱", url=f"https://t.me/adityaserver")
             ],
         ]
         return f"🎛  **This is {MUSIC_BOT_NAME}**", buttons
     if not SUPPORT_CHANNEL and SUPPORT_GROUP:
         buttons = [
             [
-                InlineKeyboardButton(
-                    text="🗂 Helper Commands Menu", callback_data="shikhar"
-                ),
-            ],
-            [
-                InlineKeyboardButton(
-                    text="🔧 Settings", callback_data="settingm"
-                )
-            ],
-            [
-                InlineKeyboardButton(
-                    text="📨Support Group", url=f"{SUPPORT_GROUP}"
-                ),
+                InlineKeyboardButton("❰ ᴊᴏɪɴ ʜᴇʀᴇ ғᴏʀ ᴜᴘᴅᴀᴛᴇs ❱", url=f"https://t.me/adityaserver")
             ],
         ]
         return f"🎛  **This is {MUSIC_BOT_NAME}*", buttons
     if SUPPORT_CHANNEL and not SUPPORT_GROUP:
         buttons = [
             [
-                InlineKeyboardButton(
-                    text="🗂 Helper Commands Menu", callback_data="shikhar"
-                ),
-            ],
-            [
-                InlineKeyboardButton(
-                    text="🔧 Settings", callback_data="settingm"
-                )
-            ],
-            [
-                InlineKeyboardButton(
-                    text="📨Official Channel", url=f"{SUPPORT_CHANNEL}"
-                ),
+                InlineKeyboardButton("❰ ᴊᴏɪɴ ʜᴇʀᴇ ғᴏʀ ᴜᴘᴅᴀᴛᴇs ❱", url=f"https://t.me/adityaserver")
             ],
         ]
         return f"🎛  **This is {MUSIC_BOT_NAME}**", buttons
     if SUPPORT_CHANNEL and SUPPORT_GROUP:
         buttons = [
             [
-                InlineKeyboardButton(
-                    text="🗂 Helper Commands Menu", callback_data="shikhar"
-                ),
-            ],
-            [
-                InlineKeyboardButton(
-                    text="🔧 Settings", callback_data="settingm"
-                )
-            ],
-            [
-                InlineKeyboardButton(
-                    text="📨Official Channel", url=f"{SUPPORT_CHANNEL}"
-                ),
-                InlineKeyboardButton(
-                    text="📨Support Group", url=f"{SUPPORT_GROUP}"
-                ),
+                InlineKeyboardButton("❰ ᴊᴏɪɴ ʜᴇʀᴇ ғᴏʀ ᴜᴘᴅᴀᴛᴇs ❱", url=f"https://t.me/adityaserver")
             ],
         ]
         return f"🎛  **This is {MUSIC_BOT_NAME}**", buttons
